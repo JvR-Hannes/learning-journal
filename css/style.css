@@ -2,4 +2,64 @@ html,
 body {
     margin: 0;
     padding: 0;
+    width: 100vw;
+    height: 100vh;
+    border: #000 solid 1px;
+}
+
+/* Navbar Section */
+
+nav {
+    border: #000 solid 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul li{
+    list-style: none;
+    font-size: 1em;
+}
+
+.nav-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 0 0;
+}
+
+.logo {
+    width: 2em;
+    height: 2em;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-header {
+    margin: 0 0 0 0.4em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/* Header Section */
+
+.image-container {
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+
+.main-img {
+    width: 90%;
+    margin: 1em auto;
 }
