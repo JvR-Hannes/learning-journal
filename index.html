@@ -2,8 +2,16 @@
 <html lang="en">
 
 <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smythe&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <!-- Title -->
     <title>My Learning Journal</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -15,11 +23,11 @@
                 <img src="images/bubble.png" alt="chat bubble icon" class="logo">
                 <span class="sub-header">My learning journal</span>
             </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
         </div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-        </ul>
     </nav>
     <div class="header">
         <h1>My new journey as a bootcamp student.</h1>
@@ -29,13 +37,65 @@
             of my Solo Projects projects and meet like-minded peers.
         </p>
     </div>
-    <div class="image-container">
-        <img src="/images/background.jpg" alt="image with a table and pc" class="main-img">
-    </div>
     <section class="main-content">
-        <div>
+        <div class="card-1 blog" id="card-1">
+            <img class="content-img" src="/images/article-image-03.png" alt="an image of a Pc setup">
+            <h2 class="content-titles">Blog one</h2>
+            <p>
+                I'm excited to start a new learning journey as a Scrimba Bootcamp student!
+                After several months of learning in the Frontend Developer Career Path.
+            </p>
+        </div>
+        <div class="card-2 blog" id="card-2">
+            <img class="content-img" src="/images/lights.jpg" alt="an image of a city at night">
+            <h2 class="content-titles">Blog two</h2>
+            <p>
+                I'm excited to start a new learning journey as a Scrimba Bootcamp student!
+                After several months of learning in the Frontend Developer Career Path.
+            </p>
+        </div>
+        <div class="card-3 blog" id="card-3">
+            <img class="content-img" src="/images/blog-image-04.png" alt="an image of a laptop with a closing screen">
+            <h2 class="content-titles">Blog three</h2>
+            <p>
+                I'm excited to start a new learning journey as a Scrimba Bootcamp student!
+                After several months of learning in the Frontend Developer Career Path.
+            </p>
+        </div>
+        <div class="card-4 blog hidden" id="card-4">
+            <img class="content-img" src="/images/structure.jpg" alt="an image of a code structure">
+            <h2 class="content-titles">Blog four</h2>
+            <p>
+                I'm excited to start a new learning journey as a Scrimba Bootcamp student!
+                After several months of learning in the Frontend Developer Career Path.
+            </p>
+        </div>
+        <div class="card-5 blog hidden" id="card-5">
+            <img class="content-img" src="/images/blog-image-01.png">
+            <h2 class="content-titles">Blog five</h2>
+            <p>
+                I'm excited to start a new learning journey as a Scrimba Bootcamp student!
+                After several months of learning in the Frontend Developer Career Path.
+            </p>
+        </div>
+        <div class="card-6 blog hidden" id="card-6">
+            <img class="content-img" src="/images/blog-image-02.png">
+            <h2 class="content-titles">Blog six</h2>
+            <p>
+                I'm excited to start a new learning journey as a Scrimba Bootcamp student!
+                After several months of learning in the Frontend Developer Career Path.
+            </p>
         </div>
     </section>
+    <div class="view-more" id="view-more">
+        <button class="view-more-btn" id="view-more-btn">View more</button>
+    </div>
+    <footer>
+        <div class="footer-wrapper">
+            <h6>My Learning Journal</h6>
+            <p>Copyright ©2025</p>
+    </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>
