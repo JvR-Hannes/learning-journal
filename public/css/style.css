@@ -167,6 +167,7 @@ li:hover {
     justify-content: center;
     max-width: 100%;
     margin: auto;
+    padding-top: 1em;
 }
 
 .blog img {
@@ -445,9 +446,6 @@ li:hover {
     }
 
     .main-content {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        justify-content: center;
         max-width: 100%;
         margin: auto;
         gap: 1.7em;
@@ -498,9 +496,6 @@ li:hover {
     }
 
     .main-content {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        justify-content: center;
         max-width: 100%;
         margin: auto;
         gap: 2em;
