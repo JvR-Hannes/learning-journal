@@ -139,14 +139,12 @@ li:hover {
 }
 
 .header h1,
-.header p,
-.home-header .header-text {
+.header p {
     width: 90%;
     max-width: 600px;
 }
 
-.header-text,
-.home-header .header-text {
+.header-text {
     margin: auto auto 0 0;
     padding: 1em;
 }
@@ -216,7 +214,7 @@ li:hover {
 }
 
 .view-more-btn:hover {
-    font-size: 1.1rem;
+    color: #8d99ae;
 }
 
 /* Footer Section */
@@ -232,24 +230,45 @@ li:hover {
 /* home.html */
 /* Hero Section */
 
-.home-header .header-text {
-    text-align: left;
-}
-
 .home-header {
-    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 2em;
+    text-align: left;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+.home-text {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+.hero-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 950px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 1em;
+    margin: 0 auto 2em auto;
+    
 }
 
 .hero-text {
     margin: 0 auto;
-    padding: 1em;
     width: 90%;
-    text-align: left;
+    max-width: 600px;
 }
 
 /* Tablets */
@@ -284,6 +303,15 @@ li:hover {
 
     .header p {
         font-size: 1rem;
+    }
+
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        max-width: 100%;
+        margin: auto;
+        gap: 1.5em;
     }
 }
 
@@ -417,5 +445,33 @@ li:hover {
         max-width: 100%;
         margin: auto;
         gap: 2em;
+    }
+
+    .home-text h1 {
+        font-size: 2.9rem;
+    }
+
+    .home-text p {
+        font-size: 1.2rem;
+    }
+
+    .home-text {
+        max-width: 800px;
+    }
+
+    .hero-text h2 {
+        font-size: 1.7rem;
+    }
+
+    .hero-text p {
+        font-size: 1.2rem;
+    }
+
+    .hero-text {
+        max-width: 800px;
+    }
+
+    .hero-image-container {
+        max-width: 1100px;
     }
 }
