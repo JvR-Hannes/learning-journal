@@ -52,6 +52,10 @@ img {
     margin: 0;
 }
 
+.hero-text h2{
+    font-size: 1rem;
+}
+
 /* Index.html Page */
 /* Navbar Section */
 
@@ -108,8 +112,15 @@ a {
 li {
     display: inline-block;
     margin: 0 1em;
+    padding: 5px 10px;
+    border-radius: 0.3em;
 }
 
+li:hover {
+    background-color: #edede9;
+}
+
+/* index.html */
 /* Header Section */
 
 .header {
@@ -128,12 +139,14 @@ li {
 }
 
 .header h1,
-.header p {
+.header p,
+.home-header .header-text {
     width: 90%;
     max-width: 600px;
 }
 
-.header-text {
+.header-text,
+.home-header .header-text {
     margin: auto auto 0 0;
     padding: 1em;
 }
@@ -147,6 +160,7 @@ li {
     margin: 0 auto 1em auto;
 }
 
+/* index.html */
 /* Main Content */
 
 .main-content {
@@ -197,8 +211,12 @@ li {
     cursor: pointer;
     text-decoration: underline;
     padding: 0;
-    margin: 0.5em auto;
+    margin: 0.8em auto;
     font-size: 1rem;
+}
+
+.view-more-btn:hover {
+    font-size: 1.1rem;
 }
 
 /* Footer Section */
@@ -209,6 +227,29 @@ li {
     margin-top: 1.3em;
     width: 100%;
     height: auto;
+}
+
+/* home.html */
+/* Hero Section */
+
+.home-header .header-text {
+    text-align: left;
+}
+
+.home-header {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.hero-text {
+    margin: 0 auto;
+    padding: 1em;
+    width: 90%;
+    text-align: left;
 }
 
 /* Tablets */
